@@ -1,0 +1,36 @@
+.container {
+    /* margin: 0 auto;
+    max-width: 900px;
+    text-align: center; */
+    background: #fff;
+    max-width: 980px;
+    margin: 0 auto;
+    padding: 0 20px;
+    font: Helvetica Neue, Helvectica, Arial, serif;
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+ul {
+    list-style-type:none;
+}
+
+input[type=number] {
+    background-color: darkgrey;
+}
+
+h2 {
+    display: inline;
+}
+
+/* body {
+    margin: 0 auto;
+    max-width: 100%;
+    text-align: center;
+    background-color: burlywood;
+} */
+h1 {
+    color: blue;
+}
+
