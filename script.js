@@ -37,7 +37,7 @@ newItemButton.addEventListener('click', ()=>{
 
     var labelName = prompt("Enter caption: ");
 
-    let ul = document.getElementsByTagName('ul')[0];
+    let ul = document.getElementsByTagName('ul')[1];
 
     let l = document.createElement('li');
     
@@ -79,7 +79,7 @@ listUl.addEventListener('click', (event)=>{
 });
 
 sumButton.addEventListener('click',()=>{
-  let ul = document.getElementsByTagName('ul')[0];
+  let ul = document.getElementsByTagName('ul')[1];
   let childrenUl = ul.children;
   //console.log(ul);
   var sum=parseInt(0);
